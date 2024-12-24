@@ -1,5 +1,5 @@
 # HMMY_BEV
-Head, Mayer, Melitz, & Yang shared files for Battery EV project
+Head, Mayer, Melitz, & Yang shared files for Battery Electric Vehicle project
 
 HMMY_BEV.pdf is the latest shared version of the paper, titled "Industrial policies for multi-stage production: The battle for battery-powered vehicles".
 
