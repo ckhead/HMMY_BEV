@@ -1,9 +1,11 @@
 # HMMY_BEV
 Head, Mayer, Melitz, & Yang shared files for Battery Electric Vehicle project
 
-HMMY_BEV.pdf is the latest shared version of the paper, titled "Industrial policies for multi-stage production: The battle for battery-powered vehicles".
+- HMMY_BEV.pdf is the latest shared version of the paper, titled "Industrial policies for multi-stage production: The battle for battery-powered vehicles".
 
-BEV_slides_long.pdf is the most recent 90 minute version of the slides.
+- LocEst_slides_UEA.pdf contains the slides from my keynote at the Urban Economics Association in Montreal, October 4, 2025.
+
+- BEV_slides_long.pdf is the most recent 90 minute version of the slides.
 
 here is a bib entry in case you want to cite the paper (but note that results are not finalized)
 
