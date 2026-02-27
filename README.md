@@ -14,11 +14,16 @@
 ## Bibtex
 Here is a bib entry in case you want to cite the paper.
 ```bibtex
-@misc{HMMY2026wp,
-  title        = {Industrial policies for multi-stage production: The battle for battery-powered vehicles},
-  author       = {Keith Head and Thierry Mayer and Marc Melitz and Chenying Yang},
-  howpublished = {mimeo},
-  url = {https://github.com/ckhead/HMMY_BEV},
-  year         = {2026}
+@techreport{HeadMayerMelitzYang2026,
+ title = "Industrial Policies for Multi-Stage Production: The Battle for Battery-Powered Vehicles",
+ author = "Head, Keith and Mayer, Thierry and Melitz, Marc and Yang, Chenying",
+ institution = "National Bureau of Economic Research",
+ type = "Working Paper",
+ series = "Working Paper Series",
+ number = "34884",
+ year = "2026",
+ month = "February",
+ doi = {10.3386/w34884},
+ URL = "http://www.nber.org/papers/w34884",
+ abstract = {We model a multi-stage supply chain for EVs from battery production to vehicle distribution. Given industrial policies, firms select where to open facilities at each stage. This is a difficult combinatorial choice problem that we solve with a fast mixed integer linear programming formulation. We estimate the variable and fixed costs parameters using SMM. Counterfactual simulations reveal a tension between boosting EV adoption and promoting domestic supply chains. Due to increasing returns, even unconditional subsidies raise the number of factories in the subsidizing region—by about 16% for EVs and 7% for cells in North America, and even more in Europe. Theoretically, local assembly requirements can push down delivered marginal costs relative to unconditional subsidies. Empirically, local content requirements quadruple the expansion of cell factories in America, but they drive up costs and reduce subsidy uptake, undoing more than half of the EV adoption stimulus coming from pure buyer subsidies.},
 }
-```
