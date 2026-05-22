@@ -74,10 +74,6 @@ save(file_path, "dfbf", dfbf)
 ## Output the results to a plot
 dfbf = JLD2.load("Data/JLD/brute_times_sigmaV$(par.σᵥ)_$(CPU).jld2", "dfbf")
 df = JLD2.load("Data/JLD/AES_MILP_times_sigmaV$(par.σᵥ)_$(CPU).jld2", "df")
-# select a subset of the data for better visualization if needed
-# L_selected = [10, 20, 50, 100, 150, 200] 
-# N_selected = [20, 50]
-# df = df[(df.N .∈ Ref(N_selected)) .&& (df.L .∈ Ref(L_selected)), :]
 ticks_p = unique([10, 20, unique(df.L)...])
 ticks_t = [0.001, 0.01, 0.1, 1, 10]
 maxL = maximum(ticks_p)
@@ -91,8 +87,6 @@ if include_bf == true
 else 
     maxy = maximum(vcat(df.avg_time_milp, df.avg_time_aes)) + 0.1
 end
-# p = plot(ylabel = "Time in seconds", xlabel = "Number of locations", xlims=(0, maxL+pmarg[2]), ylims= (0,maxy), xticks = unique([10, 20, unique(df.L)...]));
-
 p = scatter(ylabel = "Time in seconds (log scale)", xlabel = "Number of locations (log scale)", yscale=:ln, xscale=:ln, legend = false, xticks=(ticks_p,ticks_p),yticks=(ticks_t,ticks_t), xlims=(minimum(ticks_p)-1, maxL+pmarg[2]))
 myshapes = [:circle, :square, :diamond, :utriangle];
 
