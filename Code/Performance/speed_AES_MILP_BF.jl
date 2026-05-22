@@ -22,27 +22,11 @@ include("write_to_tex_function.jl")
 CPU = getCPU()
 
 # Set the parameters for the speed test K = 1
-# par = ModelParams(σᵥ=0.48, β=0.37, σᵩ=1.0, μₐ = 5.0) 
-# par = ModelParams(σᵥ=0.25, β=0.25, σᵩ=1.0, μᵩ=-1.0, μₐ = 2.0, num_sims = 100) 
-# par = ModelParams(σᵥ=0.48, β=0.25, σᵩ=1.0, μᵩ=-2.0, num_sims = 100) 
-# par = ModelParams(σᵥ=0.25, β = 0.25, σᵩ = 1.0, μₐ = 5.0, num_sims = 50, seed_start = -1)
-# par = ModelParams(σᵥ=0.1, β=0.5, σᵩ=1.0, μₐ = 5.0, num_sims = 40, μₙ = 0.0)
-# Case I: Low σᵥ
-# par = ModelParams(β = 0.25, σᵩ = 1.5, μₐ = 4.5, μₙ = 0.0, num_sims = 300)
-# Case II: High σᵥ
-par = ModelParams(σᵥ = 0.2, β = 0.25, σᵩ = 1.5, μₐ = 4.5, μₙ = 0.0, num_sims = 300)
+par = ModelParams(β = 0.25, σᵩ = 1.5, μₐ = 4.5, μₙ = 0.0, num_sims = 300)
 
 ## AES vs MILP performances
 
 # set L_list and N_list:
-# L_list = [10, 20, 60, 100, 140, 180, 220, 260]
-# N_list = [200, 400, 800]
-# L_list = [10, 20, 50, 75, 100, 125, 150, 175, 200, 225, 250] #, 300, 350, 400, 450, 500]
-# N_list = [50, 150, 250]
-# L_list = [10, 20, 40, 80, 120, 160, 200, 240, 280]
-# N_list = [20, 40, 80]
-# L_list = [10, 20, 50, 75, 100, 125, 150, 175, 200]
-# N_list = [20, 50]
 L_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 N_list = [20, 40]
 
