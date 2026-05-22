@@ -6,6 +6,8 @@
 
 - [HMMY_BEV_OnlineAppendix.pdf](https://raw.githubusercontent.com/ckhead/HMMY_BEV/main/HMMY_BEV_OnlineAppendix.pdf) is the online appendix.
 
+- [HMMY_UFLP.pdf] is a companion paper to [HMMY_BEV.pdf](https://raw.githubusercontent.com/ckhead/HMMY_BEV/main/HMMY_BEV.pdf). It documents the details of the Mixed Integer Linear Programming methodology used in the main paper, including its computational performance and comparisons with existing algorithms. Replication code can be found in the Code/Performance/ directory.
+
 - LocEst_slides_UEA.pdf contains the slides from Keith's keynote at the Urban Economics Association in Montreal, October 4, 2025. The first half is about location choice estimation and the second half is an abbreviated version of the BEV paper.
 
 ## Abstract
